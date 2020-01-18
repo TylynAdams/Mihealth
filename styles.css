@@ -1,0 +1,114 @@
+/* <div class="pics" style="align:right;">
+  <img src="pasta-salad-recipe-for-lunch.jpg" alt="Pasta Salad" style="width:40px; height:50px;">
+  <img src="apple-breakfast-quinoa-7.jpg" alt="Apples" style="width:40px; height:50px;">
+  <img src="shrimp.jpg" alt="shrimp" style="width:40px; height:50px;">
+</div>  */
+body {
+  background-color: lightgrey;
+  margin: 0;
+}
+header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+/* h2.logo:before {
+  content: 'MI';
+  color: red;
+}
+h2.logo:after {
+  content: 'HEALTH';
+  color: green;
+} */
+.logo {
+  display: flex;
+  justify-content: left;
+  padding-left: 5%;
+}
+.menu {
+   text-align:right;
+   padding-right;
+}
+.content{
+  display: flex;
+  padding: 75px;
+  justify-content: center;
+
+}
+.words {
+  width: 300px;
+  height: 450px;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+
+}
+.heading {
+  display:flex;
+  justify-content:left;
+}
+.text {
+   display:flex;
+   justify-content:left;
+   line-height: 1.75;
+}
+.end {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 280px;
+  height: 400px;
+  margin: 5px;
+  align-items: flex-end;
+
+}
+.h3{
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+.white-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  width: 100px;
+  height: 40px;
+}
+.green-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgreen;
+  width: 125px;
+  height: 40px;
+  padding-left: 10px;
+}
+.apple {
+  background-image: url("apple-breakfast-quinoa-7.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.pasta {
+  background-image: url("pasta-salad-recipe-for-lunch.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
+
+.shrimp {
+  background-image: url("shrimp.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
